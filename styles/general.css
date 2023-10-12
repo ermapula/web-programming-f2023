@@ -1,0 +1,29 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    margin: 0;
+    font-family: Roboto, Arial;
+}
+
+.content{
+    padding-top: 68px;
+    /* padding-left: 96px; */
+    padding-left: 265px;
+    padding-right: 24px;
+}
+
+.icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    background-color: white;
+}
+.icon-btn:hover{
+    background-color: rgb(0,0,0,0.15);
+    border-radius: 20px;
+}
