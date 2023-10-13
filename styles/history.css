@@ -1,0 +1,72 @@
+.content {
+  margin-left: 80px;
+}
+.history {
+  height: 2000px;
+  width: 55%;
+}
+
+.right-bar {
+  position: absolute;
+  right: 0;
+  padding: 0 28px;
+  width: 385px;
+  top: 65px;
+}
+
+.search-input-container {
+  position: relative;
+  display: flex;
+  height: 40px;
+  margin-top: 10px;
+}
+.search-history-btn {
+  position: absolute;
+}
+.search-btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+}
+.search-input-history {
+  padding-left: 40px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none; 
+  font-size: 14px;
+}
+
+.right-bar-actions{
+  margin-top: 30px;
+}
+
+.action-element {
+  width: fit-content;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 16px;
+  border-radius: 18px;
+  gap: 6px;
+  font-weight: 500;
+  margin-top: 14px;
+  font-size: 14px;
+}
+.action-element:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.action-element img {
+  margin-left: -8px;
+}
+.guide-links {
+  margin-top: 16px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.guide-link {
+  font-size: 14px;
+}
