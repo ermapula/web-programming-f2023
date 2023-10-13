@@ -71,14 +71,14 @@
     right: 5px;
 }
 
-
+.categories-wrap {
+    position: relative;
+}
 .categories {
     display: flex;
     flex-direction: row;
     margin-bottom: 40px;
     gap: 10px;
-    /* max-width: 1fr; */
-    white-space: nowrap;
     overflow: hidden;
 }
 .category {
@@ -89,6 +89,7 @@
     font-size: 14px;
     color: #0F0F0F;
     cursor: pointer;
+    white-space: nowrap;
     transition: background-color 0.15s;
 }
 .category-selected {
@@ -101,4 +102,17 @@
 }
 .category-selected:hover{
     background-color: black;
+}
+
+.right-arrow-btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: -4px;
+    right: 0;
+    background: linear-gradient(0.25turn, rgb(0, 0, 0, 0), white 50%);
+    padding-left: 60px;
+}
+.right-arrow-btn .btn { 
+    
 }
