@@ -79,9 +79,7 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.search-button,
-.voice-search-button,
-.upload-icon-container {
+.search-button {
     display: flex;
     justify-content: center;
     align-items: center;

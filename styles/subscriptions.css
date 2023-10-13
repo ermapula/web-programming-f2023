@@ -1,0 +1,31 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  margin-top: 24px;
+}
+
+.topbar-text {
+  font-weight: 500;
+}
+
+.top-bar-left {
+  display: flex;
+  align-items: center;
+}
+
+.manage {
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: bold;
+  color: rgb(62, 166, 255);
+}
+.manage:hover {
+  background-color: rgb(222, 241, 255);
+}
+
+.topbar-btn {
+  width: 40px;
+  height: 40px;
+}
