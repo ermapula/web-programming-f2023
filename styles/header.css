@@ -15,8 +15,10 @@
 }
 
 .left-section{
+    margin-left: 16px;
     display: flex;
     align-items: center;
+    gap: 16px;
 }
 
 .hamburger-menu {
