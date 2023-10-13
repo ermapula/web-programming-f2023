@@ -5,9 +5,14 @@
   height: 2000px;
   width: 55%;
 }
+.history-header {
+  padding-top: 12px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
 
 .right-bar {
-  position: absolute;
+  position: fixed;
   right: 0;
   padding: 0 28px;
   width: 385px;
