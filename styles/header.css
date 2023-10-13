@@ -88,7 +88,8 @@
 
 .search-button .tooltip,
 .voice-search-button .tooltip,
-.upload-icon-container .tooltip  {
+.upload-icon-container .tooltip,
+.notifications-icon-container .tooltip  {
     position: absolute;
     background-color: gray;
     color: white;
@@ -103,7 +104,8 @@
 }
 .search-button:hover .tooltip,
 .voice-search-button:hover .tooltip,
-.upload-icon-container:hover .tooltip  {
+.upload-icon-container:hover .tooltip,
+.notifications-icon-container:hover .tooltip   {
     opacity: 1;
 }
 
@@ -165,4 +167,5 @@
     padding: 0 14px;
     height: 32px;
     border-radius: 16px;   
+    cursor: pointer;
 }

@@ -1,0 +1,10 @@
+.clear-btn {
+  position: absolute;
+  right: 115px;
+  top: 7px;
+  height: 40px;
+  background-color: transparent;
+}
+.middle-section {
+  position: relative;
+}
