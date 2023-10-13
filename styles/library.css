@@ -1,0 +1,69 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-left: 80px;
+  
+  margin-right: 80px;
+  align-items: start;
+}
+
+.lib-primary {
+  margin-top: 6px;
+}
+.lib-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lib-top-bar-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 500;
+}
+.top-bar-count {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  font-weight: normal;
+}
+
+.see-all {
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: 500;
+  color: rgb(6, 95, 212);
+  font-size: 14px;
+}
+.see-all:hover {
+  background-color: rgb(222, 241, 255);
+}
+
+.lib-account-info {
+  margin-left: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 178px;
+}
+.lib-account-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  line-height: 22px;
+  font-size: 16px;
+}
+.lib-account-profile img {
+  margin: 80px 16px 16px 16px;
+  height: 80px;
+  width: 80px;
+}
+.lib-statistics{  
+  color: rgb(96, 96, 96);
+  font-size: 12px;
+}
+.lib-stats-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
