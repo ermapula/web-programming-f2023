@@ -44,7 +44,7 @@ body{
     border: none;
     padding: 8px;
     cursor: pointer;
-    background-color: white;
+    background-color: transparent;
     position: relative;
     border-radius: 20px;
 }
