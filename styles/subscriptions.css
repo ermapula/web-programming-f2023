@@ -57,3 +57,12 @@
 .content {
   margin-bottom: 20px;
 }
+
+.thumbnail-row {
+  transition: all 0.2s ease-in-out;
+}
+
+.thumbnail:hover{
+  cursor: pointer;
+  border-radius: 0%;
+}
