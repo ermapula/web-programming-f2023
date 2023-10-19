@@ -2,7 +2,6 @@
   margin-left: 80px;
 }
 .history {
-  height: 2200px;
   width: 70%;
 }
 .history-header {
@@ -84,7 +83,9 @@
 .video-description{
   line-height: 20px;
 }
+.video-info {
 
+}
 .video-author{
   margin-top: 0;
   margin-bottom: 5px;

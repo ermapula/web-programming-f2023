@@ -1,13 +1,13 @@
 .content {
-  display: flex;vv
   margin-left: 80px;
-  
   margin-right: 80px;
   align-items: start;
 }
 
 .lib-primary {
   margin-top: 6px;
+  display: flex;
+  align-items: start;
 }
 .lib-top-bar {
   display: flex;
@@ -38,6 +38,7 @@
 }
 
 .lib-account-info {
+  flex-shrink: 0;
   margin-left: 32px;
   display: flex;
   flex-direction: column;
@@ -56,6 +57,7 @@
   margin: 80px 16px 16px 16px;
   height: 80px;
   width: 80px;
+  border-radius: 40px;
 }
 .lib-statistics{  
   color: rgb(96, 96, 96);
@@ -107,3 +109,7 @@
   color: #606060;
 }
 
+.th-private {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
