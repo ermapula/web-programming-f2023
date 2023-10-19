@@ -92,6 +92,9 @@
   background-color: white;
   color: black;
 }
+.play-all-btn:hover {
+  background-color: rgb(255, 255, 255, 0.7);
+}
 .play-all-btn img {
   filter: none;
 }
@@ -127,6 +130,39 @@
   cursor: pointer;
 }
 .watch-later-videos {
-  
+  margin-top: 16px;
+  margin-left: 4px;
+}
+.watch-later-video {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  transition: box-shadow 150ms,
+  border-radius 150ms;
+}
+.watch-later-video:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  cursor: grab;
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+.drag-icon {
+  padding: 6px;
+}
+.thumbnail-row {
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+.thumbnail {
+  width: 160px;
+  height: 90px;
 }
 
+.video-time {
+  right: 4px;
+  bottom: 4px;
+  border-radius: 5px;
+}
+.video-info {
+  align-self: flex-start;
+}

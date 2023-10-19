@@ -38,6 +38,7 @@ body{
 }
 
 .btn {
+    font-family: Roboto, Arial;
     display: flex;
     align-items: center;
     justify-content: center;
