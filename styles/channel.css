@@ -104,3 +104,6 @@ body {
   bottom: 4px;
   right: 4px;
 }
+.video-preview {
+  cursor: pointer;
+}
