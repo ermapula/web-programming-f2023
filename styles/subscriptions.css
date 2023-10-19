@@ -8,6 +8,8 @@
 
 .topbar-text {
   font-weight: 500;
+  margin-bottom: 20px;
+  color: var(--yt-spec-text-primary);
 }
 
 .top-bar-left {
@@ -28,4 +30,26 @@
 .topbar-btn {
   width: 40px;
   height: 40px;
+}
+
+.video-title{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+.video-author,
+.video-stats
+{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+
+}
+
+@media (min-width: 1081px) {
+  .video-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
