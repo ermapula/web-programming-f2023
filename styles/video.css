@@ -21,6 +21,8 @@
 }
 .video-preview {
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 .profile-picture{
     width: 36px;
@@ -58,6 +60,7 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
 
 
 .video-time {
